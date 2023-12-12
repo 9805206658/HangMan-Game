@@ -1,4 +1,6 @@
 // here declare the miscounter variable 
+alert(window.innerHeight);
+alert(window.innerWidth);
 let misCounter=0;
 let miss=0;
 let winCounter=0;

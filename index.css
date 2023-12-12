@@ -3,7 +3,7 @@
 {
     --wpm:30vw;
     --hpm:50vh;
-    --eleWidth:500px;
+    --eleWidth:26vw;
     --bgcolor:black;
     --eleHeight:8px;
 }
@@ -284,13 +284,13 @@ border-radius: 10px;
 }
 #hintContainer
 {
-    width:235px;
+    width:15vw;
     height:20vh;
     display: flex;
     flex-direction: column;
     align-items:center;
     position:absolute;
-    top:49px;
+    top:0%;
     left:50%;
 }
 #hintContainer  #hintTitle
@@ -316,7 +316,7 @@ display:none;
     font-weight:bold;
     opacity:100;
     display:block;
-    margin-left:165px;
+    margin-left:57%;
     line-height:30px;
     padding:2px;
     border-radius:10px;
@@ -471,16 +471,16 @@ flex-direction: column;
     margin:auto;
     background-color: var(--bgcolor);
     margin-top:33vh;
-    position:fixed;
+    position:relative;
    
 }
 
 #stand2
 {
-    width:29vh;
-    margin-left:60%;
-    margin-top:22%;
-  position: fixed;
+    width:27vh;
+    margin-left:71%;
+    margin-top:-24%;
+  position: relative;
    
 }
 
@@ -488,58 +488,57 @@ flex-direction: column;
 {
     
     width: 40%;
-   left:44%;
-   top:33%;
+   left:49%;
+   top:32%;
    position: fixed;
    
 }
 
 #head
 {
-    top:34%;
-    left:40%;
-    position: fixed;
+    top:-38%;
+    left:42%;
+    position:relative;
 }
 
 #body
 {
-    width:16%;
-    top:48%;
-    left:37%;
-    position: fixed;
+    width:26%;
+    top:-18%;
+    left:35%;
+    position:relative;
 }
 
 #handLeft
 {
     
     left:30%;
-    top: 48%;
+    top: -30%;
     
-    position: fixed;
+    position:relative;
 }
 
 #handRight
 {
-    left:44%;
-    top: 48%;
-    
-    position: fixed;
+    left:47%;
+    top:-32%;
+    position:relative;
 
 }
 
 #legLeft
 {
     left:30%;
-    top: 57%;
-    
-    position: fixed;
+    top: -1%;
+
+    position:relative;
 }
 
 #legRight
 {
-   left:44%;
-    top: 57%;
-    position: fixed;
+   left:42%;
+    top: -1%;
+    position:relative;
 }
 .home
 {
